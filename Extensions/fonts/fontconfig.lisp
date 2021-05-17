@@ -31,7 +31,7 @@
              #p"/opt/X11/share/fonts/"
              #p"~/.guix-profile/share/fonts/truetype/"
              #p"/Library/Fonts/"
-             #p"C:/Windows/Fonts/"
+;             #p"C:/Windows/Fonts/"
              #p"~/AppData/Local/Microsoft/Windows/Fonts/")))
 
 ;;; Here are mappings for the DejaVu family of fonts, which are a
