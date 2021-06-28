@@ -154,7 +154,7 @@
                     (push option (getf all-values :other-options)))))
       (alexandria:remove-from-plist all-values :pane))))
 
-(defmacro define-application-frame (name superclasses slots &rest options)
+(defmacro define-application-frame (name superclasses slots &body options)
   (when (null superclasses)
     (setq superclasses '(standard-application-frame)))
   (destructuring-bind (&key panes
